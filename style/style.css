@@ -4,9 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+div {
+    background-color: blueviolet;
+    border: 1px dashed black;
+}
 /* HEADER */
 header {
-    height: 200px;
+    height: 230px;
     /* background-color: red; */
     width: 100%;
 }
@@ -17,4 +21,20 @@ header {
 #bottom-hdr {
     height: 80%;
     background-color: rgb(0, 0, 139);
+}
+.common-size {
+    width: 70%;
+    height: 75%;
+}
+.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.different-size{
+    width: 50%;
+    height: 75%;
+}
+.bg-pink {
+    background-color: rgb(238, 130, 238);
 }
