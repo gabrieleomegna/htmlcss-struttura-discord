@@ -46,7 +46,7 @@ main {
     /* background-color: aquamarine; */
 }
 .main-section {
-    height: calc(100% / 5);
+    height: 20%;
 }
 .common-size {
     width: 60%;
@@ -55,18 +55,19 @@ main {
 .box-blue {
     background-color: rgb(30, 144, 255);
     width: 60%;
-    height: 100%;
 }
 .box-light-pink {
     width: 40%;
-    height: 100%;
     background-color: rgb(255, 192, 203);
+}
+.max-height {
+    height: 100%;
 }
 .bg-grey {
     background-color: rgb(211, 211, 211);
 }
 .main-section-box-green {
-    height: calc(2 * (100% / 5));
+    height: 40%;
 }
 .bg-green {
     background-color: rgb(34, 139, 34);
@@ -89,4 +90,21 @@ footer {
 }
 .margin-top-footer {
     margin-top: 0.3rem;
+}
+.box-footer {
+    width: 30%;
+    background-color: rgb(240, 128, 128);
+}
+.little-box-footer {
+    width: calc(70% / 4);
+    background-color: rgb(32, 178, 170);
+    border-color: white;
+}
+.display-flex-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button {
+    border: 1px dashed black;
 }
