@@ -23,7 +23,7 @@ header {
     background-color: rgb(0, 0, 139);
 }
 .common-size {
-    width: 70%;
+    width: 60%;
     height: 75%;
 }
 .display-flex {
@@ -32,9 +32,28 @@ header {
     align-items: center;
 }
 .different-size{
-    width: 50%;
+    width: 45%;
     height: 75%;
 }
 .bg-pink {
     background-color: rgb(238, 130, 238);
+}
+
+/* MAIN */
+main {
+    height: 900px;
+    background-color: aquamarine;
+}
+.main-section {
+    height: calc(100% / 5);
+}
+.box-blue {
+    background-color: rgb(30, 144, 255);
+    width: 60%;
+    height: 100%;
+}
+.box-light-pink {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(255, 192, 203);
 }
