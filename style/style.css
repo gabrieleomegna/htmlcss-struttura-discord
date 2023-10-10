@@ -4,37 +4,65 @@
     padding: 0;
     box-sizing: border-box;
 }
-div {
-    background-color: blueviolet;
+div, #upper-hdr nav {
+    /* background-color: blueviolet; */
     border: 1px dashed black;
 }
 /* HEADER */
 header {
     height: 230px;
     /* background-color: red; */
-    width: 100%;
 }
+/* Upper header */
 #upper-hdr {
     height: 20%;
     background-color: rgb(173, 216, 230);
 }
-#bottom-hdr {
-    height: 80%;
-    background-color: rgb(0, 0, 139);
-}
 .nav-bar-size {
     width: 60%;
-    height: calc(100% - .5rem);
+    height: calc(100% - 1rem);
 }
 .display-flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.hdr-logo-login {
+    width: 20%;
+}
+.max-height {
+    height: 100%;
+}
+.link-list {
+    width: 60%;
+}
+#flex-start {
+    justify-content: flex-start;
+}
+#flex-end {
+    justify-content: flex-end;
+}
+/* HEADER NAV */
+nav.link-list > ul {
+    list-style: none;
+}
+nav.link-list > ul li {
+    padding: 0rem .3rem;
+}
+section#upper-hdr .nav-bar-size {
+    background-color: rgb(222, 162, 23);
+}
+/* .hdr-line-height {
+    line-height: 2rem;
+} */
+/* Bottom header */
+#bottom-hdr {
+    height: 80%;
+    background-color: rgb(0, 0, 139);
+}
 .different-size{
     width: 45%;
-    height: 75%;
+    height: calc(100% - 2.5rem);
 }
 .bg-pink {
     background-color: rgb(238, 130, 238);
@@ -60,9 +88,6 @@ main {
     width: 40%;
     background-color: rgb(255, 192, 203);
 }
-.max-height {
-    height: 100%;
-}
 .bg-grey {
     background-color: rgb(211, 211, 211);
 }
@@ -82,15 +107,14 @@ footer {
     height: 80%;
     border-bottom: 1px solid white;
     align-items: flex-start;
+    padding-top: 0.3rem;
 }
 #bottom-footer {
     height: 20%;
     /* border: 1px solid white; */
     align-items: flex-end;
 }
-.margin-top-footer {
-    margin-top: 0.3rem;
-}
+
 .box-footer {
     width: 30%;
     background-color: rgb(240, 128, 128);
@@ -107,4 +131,7 @@ footer {
 }
 button {
     border: 1px dashed black;
+}
+.bg-jade-green {
+    background-color: rgb(127, 255, 212);
 }
